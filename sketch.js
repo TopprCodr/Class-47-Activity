@@ -52,7 +52,7 @@
  
    for (var i = 0; i < EnemyGroup.length; i++) {
      var temp1=EnemyGroup.get(i);
-     if(temp1.y>500){
+      if(temp1.y>height+50){
      temp1.destroy();
      score = score-1;
    }
